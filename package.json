@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "An application to connect motivated individuals with climate change resources",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x",
+    "yarn": "1.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tedirland/prometoVerde.git"
+  },
+  "keywords": [
+    "Climate",
+    "Change",
+    "Sustainibility",
+    "Green"
+  ],
+  "author": "Ted Irland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tedirland/prometoVerde/issues"
+  },
+  "homepage": "https://github.com/tedirland/prometoVerde#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
