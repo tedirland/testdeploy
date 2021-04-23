@@ -4,9 +4,8 @@
   "description": "An application to connect motivated individuals with climate change resources",
   "main": "index.js",
   "engines": {
-    "node": "14.x",
-    "npm": "6.x",
-    "yarn": "1.x"
+    "node": "14.6.1",
+    "npm": "7.11.0"
   },
   "scripts": {
     "start": "node index.js"
@@ -28,6 +27,8 @@
   },
   "homepage": "https://github.com/tedirland/prometoVerde#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
