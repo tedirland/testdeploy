@@ -4,5 +4,3 @@ module.exports = {
   mongoURI: process.env.MONGO_URI,
   cookieKey: process.env.COOKIE_KEY,
 }
-
-//mongodb+srv://mvdev:19JruIqKRJqCCseP@mundoverde-prod.hmif3.mongodb.net/mundoverde-prod?retryWrites=true&w=majority
